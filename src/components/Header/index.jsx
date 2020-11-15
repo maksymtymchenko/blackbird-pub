@@ -3,6 +3,7 @@ import React from 'react'
 import './header.css'
 
 import logo from '../../assets/img/logo.svg'
+import menu from '../../assets/img/menu-icon.svg'
 
 const index = () => {
   return (
@@ -11,7 +12,7 @@ const index = () => {
         <img className="header__logo" src={logo} alt="" />
         <div className="header__nav">
           <span className="header__nav--text">How We Work</span>
-          <img src="" alt="" className="header__nav--icon" />
+          <img src={menu} alt="" className="header__nav--icon" />
           <span className="header__nav--text">What We Do</span>
         </div>
         <div className="header__options">

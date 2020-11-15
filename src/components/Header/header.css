@@ -16,6 +16,11 @@
   max-width: 100px;
   max-height: 70px;
 }
+
+.header__nav {
+  display: flex;
+  align-items: center;
+}
 .header__options--btn {
   cursor: pointer;
   background-color: #1893c4;
