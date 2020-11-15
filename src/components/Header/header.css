@@ -12,7 +12,10 @@
   align-items: center;
   padding: 15px;
 }
-
+.header__logo {
+  max-width: 100px;
+  max-height: 70px;
+}
 .header__options--btn {
   cursor: pointer;
   background-color: #1893c4;

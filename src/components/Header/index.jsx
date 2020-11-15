@@ -8,7 +8,7 @@ const index = () => {
   return (
     <header className="header">
       <div className="header__wraper">
-        <div className="header__logo">LOGO</div>
+        <img className="header__logo" src={logo} alt="" />
         <div className="header__nav">
           <span className="header__nav--text">How We Work</span>
           <img src="" alt="" className="header__nav--icon" />
