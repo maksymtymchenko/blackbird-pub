@@ -15,7 +15,9 @@ const index = () => {
           <span className="header__nav--text">What We Do</span>
         </div>
         <div className="header__options">
-          <button className="header__options--btn">Contact us</button>
+          <button className="header__options--btn">
+            Contact us<span>&#x27A1;</span>
+          </button>
           <select id="languages">
             <option value="en">EN</option>
             <option value="ukr">UKR</option>
