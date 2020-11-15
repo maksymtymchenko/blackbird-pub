@@ -26,3 +26,9 @@
 .header__options--btn span {
   margin-left: 40px;
 }
+
+.header__options--list {
+  outline: none;
+  border: none;
+  background-color: transparent;
+}

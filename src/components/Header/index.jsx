@@ -18,7 +18,7 @@ const index = () => {
           <button className="header__options--btn">
             Contact us<span>&#x27A1;</span>
           </button>
-          <select id="languages">
+          <select className="header__options--list" id="languages">
             <option value="en">EN</option>
             <option value="ukr">UKR</option>
             <option value="rus">RUS</option>
