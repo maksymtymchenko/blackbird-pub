@@ -1,7 +1,9 @@
 import React from 'react'
 
+// import styles
 import './header.css'
 
+// import img
 import logo from '../../assets/img/logo.svg'
 import menu from '../../assets/img/menu-icon.svg'
 
