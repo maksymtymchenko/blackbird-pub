@@ -1,12 +1,11 @@
 .header {
   width: 100%;
-  max-height: 80px;
   border-bottom: 2px solid black;
   position: fixed;
   top: 0px;
   z-index: 999;
 }
-.header__wraper {
+.header__wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -39,4 +38,17 @@
   outline: none;
   border: none;
   background-color: transparent;
+}
+
+/* media */
+
+@media screen and (max-width: 768px) {
+  .header__wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .header__nav {
+    margin: 10px 0;
+  }
 }

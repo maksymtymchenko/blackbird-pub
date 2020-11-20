@@ -8,7 +8,7 @@ import menu from '../../assets/img/menu-icon.svg'
 const index = () => {
   return (
     <header className="header">
-      <div className="header__wraper">
+      <div className="header__wrapper">
         <img className="header__logo" src={logo} alt="" />
         <div className="header__nav">
           <span className="header__nav--text">How We Work</span>
