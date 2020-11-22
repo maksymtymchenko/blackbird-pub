@@ -4,7 +4,7 @@ import React from 'react'
 
 import Header from '../Header'
 // import styles
-import './how.css'
+import './how.scss'
 
 const index = () => {
   return (

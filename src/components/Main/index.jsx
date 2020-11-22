@@ -1,7 +1,7 @@
 import React from 'react'
 
 // import styles
-import './main.css'
+import './main.scss'
 
 // import components
 import Header from '../Header'

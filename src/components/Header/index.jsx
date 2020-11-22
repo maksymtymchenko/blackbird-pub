@@ -1,7 +1,7 @@
 import React from 'react'
 
 // import styles
-import './header.css'
+import './header.scss'
 
 // import img
 import logo from '../../assets/img/logo.svg'
