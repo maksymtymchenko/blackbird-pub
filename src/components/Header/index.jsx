@@ -5,16 +5,19 @@ import './header.scss'
 
 // import img
 import logo from '../../assets/img/logo.svg'
-import menu from '../../assets/img/menu-icon.svg'
 
 const index = () => {
   return (
     <header className="header">
       <div className="header__wrapper">
-        <img className="header__logo" src={logo} alt="" />
+        <img className="header__logo" src={logo} alt="BlackBird" />
         <div className="header__nav">
           <span className="header__nav--text">How We Work</span>
-          <img src={menu} alt="" className="header__nav--icon" />
+          <div className="header__nav--menu">
+            <div className="header__nav--bars"></div>
+            <div className="header__nav--bars"></div>
+            <div className="header__nav--bars"></div>
+          </div>
           <span className="header__nav--text">What We Do</span>
         </div>
         <div className="header__options">

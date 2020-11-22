@@ -22,7 +22,7 @@
     align-items: center;
     &--text {
       color: $secondary;
-      margin: 0 3px 3px;
+      margin: 22px;
       font-family: OktaNeue;
       font-size: 15px;
       font-weight: bold;
@@ -31,6 +31,24 @@
       line-height: normal;
       letter-spacing: normal;
       text-align: center;
+    }
+    &--menu {
+      width: 36px;
+      height: 36px;
+      margin: 0 4px 4px 0;
+      border: solid 2px $secondary;
+      background-color: $background-primary;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      box-shadow: 3px 3px 1px 1px rgba(57, 156, 203, 0.4);
+    }
+    &--bars {
+      margin: 1px;
+      width: 14px;
+      height: 3px;
+      background-color: $secondary;
     }
   }
 
