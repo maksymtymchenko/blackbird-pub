@@ -13,11 +13,11 @@ const index = () => {
         <img className="header__logo" src={logo} alt="BlackBird" />
         <div className="header__nav">
           <span className="header__nav--text">How We Work</span>
-          <div className="header__nav--menu">
+          <button className="header__nav--menu">
             <div className="header__nav--bars"></div>
             <div className="header__nav--bars"></div>
             <div className="header__nav--bars"></div>
-          </div>
+          </button>
           <span className="header__nav--text">What We Do</span>
         </div>
         <div className="header__options">
