@@ -5,6 +5,7 @@ import './header.scss'
 
 // import img
 import logo from '../../assets/img/logo.svg'
+import arrowRight from '../../assets/img/arr-right.svg'
 
 const index = () => {
   return (
@@ -22,7 +23,8 @@ const index = () => {
         </div>
         <div className="header__options">
           <button className="header__options--btn">
-            Contact us<span>&#x27A1;</span>
+            Contact us
+            <img className="arrow__right" src={arrowRight} alt="" />
           </button>
           <select className="header__options--list" id="languages">
             <option value="en">EN</option>
